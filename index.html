@@ -8,18 +8,55 @@
     <link rel="stylesheet" href="style/glass-effect.css">
 </head>
 <body>
-    <!-- This is an example of a web UI kit using GlassEffects -->
+    <!-- Ceci est un exemple d'une interface utilisateur basée sur GlassEffects -->
     <div class="app-container">
         <div class="app-sidebar glass-vertical-tab">
-            <div class="glass-tab-item">Tab 1</div>
-            <div class="glass-tab-item">Tab 2</div>
-            <div class="glass-tab-item">Tab 3</div>
-            <div class="glass-tab-item">Tab 4</div>
+            <div class="glass-tab-item active" data-target="tab1">Tab 1</div>
+            <div class="glass-tab-item" data-target="tab2">Tab 2</div>
+            <div class="glass-tab-item" data-target="tab3">Tab 3</div>
+            <div class="glass-tab-item" data-target="tab4">Tab 4</div>
         </div>
         <div class="app-content">
-            <h1>Welcome to the Web UI Kit</h1>
-            <p>This is an example of vertical tabs with glass effect.</p>
+            <div id="tab1" class="content-section">
+                <h1>Tab 1</h1>
+                <p>Contenu de la catégorie 1</p>
+            </div>
+
+            <div id="tab2" class="content-section">
+                <h1>Tab 2</h1>
+                <p>Contenu de la catégorie 2</p>
+            </div>
+
+            <div id="tab3" class="content-section">
+                <h1>Tab 3</h1>
+                <p>Contenu de la catégorie 3</p>
+            </div>
+
+            <div id="tab4" class="content-section">
+                <h1>Tab 4</h1>
+                <p>Contenu de la catégorie 4</p>
+            </div>
         </div>
     </div>
+
+<script>
+    const tabs = document.querySelectorAll('.glass-tab-item');
+    const sections = document.querySelectorAll('.content-section');
+
+    function showTab(id) {
+        sections.forEach(s => s.style.display = 'none');
+        document.getElementById(id).style.display = 'block';
+    }
+
+    tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            tabs.forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+            showTab(tab.dataset.target);
+        });
+    });
+
+    showTab('tab1');
+</script>
 </body>
 </html>

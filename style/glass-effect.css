@@ -1,13 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('../assets/images/bg3.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
 .glass-button {
     background-color: rgba(255, 255, 255, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(10px);
     border-radius: 10px;
-    color: #fff;
+    color: #000000;
 }
 
 .glass-radio {
-    color: #fff;
+    color: #000000;
 }
 
 .glass-radio:checked {
@@ -17,7 +25,7 @@
 }
 
 .glass-checkbox {
-    color: #fff;
+    color: #000000;
 }
 
 .glass-checkbox:checked {
@@ -31,7 +39,7 @@
     border: 1px solid rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(10px);
     border-radius: 10px;
-    color: #fff;
+    color: #000000;
 }
 
 .glass-card {
@@ -39,7 +47,7 @@
     border: 1px solid rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(10px);
     border-radius: 15px;
-    color: #fff;
+    color: #000000;
 }
 
 .glass-modal {
@@ -47,7 +55,7 @@
     border: 1px solid rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(10px);
     border-radius: 15px;
-    color: #fff;
+    color: #000000;
 }
 
 .glass-nav {
@@ -56,7 +64,7 @@
     border: 1px solid rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(10px);
     border-radius: 10px;
-    color: #fff;
+    color: #000000;
 }
 
 .glass-alert {
@@ -64,7 +72,7 @@
     border: 1px solid rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(10px);
     border-radius: 10px;
-    color: #fff;
+    color: #000000;
 }
 
 .glass-badge {
@@ -72,7 +80,7 @@
     border: 1px solid rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(10px);
     border-radius: 10px;
-    color: #fff;
+    color: #000000;
 }
 
 .glass-progress-bar {
@@ -86,7 +94,7 @@
     border: 1px solid rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(10px);
     border-radius: 10px;
-    color: #fff;
+    color: #000000;
 }
 
 .glass-dropdown {
@@ -94,7 +102,7 @@
     border: 1px solid rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(10px);
     border-radius: 10px;
-    color: #fff;
+    color: #000000;
 }
 
 .glass-tab {
@@ -103,7 +111,7 @@
     border: 1px solid rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(10px);
     border-radius: 10px;
-    color: #fff;
+    color: #000000;
 }
 
 .glass-vertical-tab {
@@ -111,7 +119,7 @@
     border: 1px solid rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(10px);
     border-radius: 10px;
-    color: #fff;
+    color: #000000;
 }
 
 .glass-tab-item {
@@ -124,7 +132,7 @@
     border: 1px solid rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(10px);
     border-radius: 10px;
-    color: #fff;
+    color: #000000;
 }
 
 .glass-search-bar {
@@ -132,5 +140,5 @@
     border: 1px solid rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(10px);
     border-radius: 10px;
-    color: #fff;
+    color: #000000;
 }
