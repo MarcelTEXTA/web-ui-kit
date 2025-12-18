@@ -2,6 +2,8 @@
 
 Bienvenue dans le kit d'interface utilisateur pour TEXTA web ! Ce kit est conçu pour vous aider à créer des interfaces utilisateur utilisant GlassEffects avec facilité et cohérence.
 
+<img src="assets/images/Capture1.png" alt="Aperçu du Kit UI"/>
+
 ## Composants Inclus
 
 - **Boutons** : Style GlassEffects pour les boutons primaires et secondaires.
