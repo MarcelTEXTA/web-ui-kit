@@ -51,9 +51,22 @@ Voici la liste des classes CSS disponibles pour les composants GlassEffects :
 - `.glass-dropdown`
 - `.glass-tab`
 - `.glass-vertical-tab`
-- `.glass-tab-item` (pour `tab` et `vertical-tab`)
+- `.glass-tab-item` (pour `.tab` et `.vertical-tab`)
 - `.glass-accordion`
 - `.glass-search-bar`
+
+Pour appliquer un effet de verre à un composant, ajoutez simplement la classe CSS correspondante à l'élément HTML.
+
+```html
+<div class="glass-card">
+    <button class="glass-button">Cliquez Moi</button>
+</div>
+
+<div class="glass-tab">
+    <div class="glass-tab-item">Onglet 1</div>
+    <div class="glass-tab-item">Onglet 2</div>
+</div>
+```
 
 Pour l'arrière-plan, vous pouvez choisir une image et la mettre dans le dosser `assets/images/` puis définir le style CSS suivant :
 
@@ -63,6 +76,10 @@ body {
     background-size: cover;
 }
 ```
+
+## Les icônes
+
+Bientôt disponible : une collection d'icônes avec effets de verre pour améliorer l'apparence de votre interface utilisateur.
 
 ## Contribution
 
