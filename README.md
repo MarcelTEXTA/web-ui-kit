@@ -27,7 +27,7 @@ Bienvenue dans le kit d'interface utilisateur pour TEXTA web ! Ce kit est conçu
 Pour utiliser ce kit d'interface utilisateur, vous pouvez cloner le dépôt ou télécharger les fichiers nécessaires. Assurez-vous d'inclure les styles CSS et les scripts JavaScript dans votre projet.
 
 ```bash
-git clone https://github.com/yourusername/web-ui-kit.git
+git clone https://github.com/MarcelTEXTA/web-ui-kit.git
 ```
 
 ## Utilisation
