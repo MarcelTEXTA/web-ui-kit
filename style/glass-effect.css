@@ -7,11 +7,9 @@ body {
 }
 
 .glass-button {
-    background-color: rgba(255, 255, 255, 0.3);
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-    color: #000000;
+    border-radius: 35px;
+    background-color: rgba(255, 255, 255, 0.251);
+    box-shadow: inset rgba(0, 0, 0, 0.251);
 }
 
 .glass-radio {
